@@ -2,14 +2,14 @@
 
 1.  [`PerspectiveCamera()`](https://threejs.org/docs/#api/en/cameras/PerspectiveCamera) simulated a real-life camera with perspective.
 
-    - **`Field of view`**
+    - **Field of view**
 
       - Small angle &rarr; **long scope effect**
       - Wide angle &rarr; **fish eye effect**, the objects will be stretched or squeezed to fit the canvas.
 
-    - **`Aspect ratio`** corresponds to the width divided by the height
+    - **Aspect ratio** corresponds to the width divided by the height
 
-    - **`Near and far`** correspond to how close and how far the camera can see.
+    - **Near and far** correspond to how close and how far the camera can see.
 
 2.  Custom controls
 
@@ -38,7 +38,6 @@
     import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 
     // Controls
-    const controls = new OrbitControls(camera, canvas)
     const controls = new OrbitControls(camera, canvas)
     controls.enableDamping = true
 
