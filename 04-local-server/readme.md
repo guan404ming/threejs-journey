@@ -1,7 +1,5 @@
 # 04-local-server
 
-## Setup
-
 - [Vite](https://vitejs.dev/) is a build tool help optimizations, cache breaking, source mapping, running a local server, etc.
 - Download [Node.js](https://nodejs.org/en/download/).
   Run this followed commands:
