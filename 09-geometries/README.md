@@ -1,6 +1,6 @@
 # 08-fullscreen-and-resizing
 
-1.  [`BoxGeometry()`] to create a box. It has 6 parameters:
+1.  [`BoxGeometry()`](https://threejs.org/docs/#api/en/geometries/BoxGeometry) to create a box. It has 6 parameters:
 
     - **width**: The size on the x axis
     - **height**: The size on the y axis
