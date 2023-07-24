@@ -1,6 +1,6 @@
 # 07-cameras
 
-1.  [`PerspectiveCamera()`](https://threejs.org/docs/#api/en/cameras/PerspectiveCamera) simulated a real-life camera with perspective.
+1.  [`PerspectiveCamera()`](https://threejs.org/docs/#api/en/cameras/PerspectiveCamera) simulated a real-life camera with perspective. It has 4 parameters:
 
     - **Field of view**
 
@@ -9,7 +9,8 @@
 
     - **Aspect ratio** corresponds to the width divided by the height
 
-    - **Near and far** correspond to how close and how far the camera can see.
+    - **Near** corresponds to how close the camera can see.
+    - **Far** corresponds to how far the camera can see.
 
 2.  Custom controls
 
